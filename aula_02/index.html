@@ -19,12 +19,19 @@
         .container {
             max-width: 400px;
             margin: 0 auto;
-            border: 1px solid #000;
-
+            border: 1px solid #000; 
         }
 
         .flexivel {
             display: flex;
+        }
+
+        .vertical {
+            flex-direction: column;
+        }
+
+        .horizontal {
+            flex-direction: row;
         }
 
         body {
@@ -35,7 +42,7 @@
 </head>
 
 <body>
-    <div class="container flexivel">
+    <div class="container flexivel vertical">
         <div class="item">Curso 1</div>
         <div class="item">Curso 2</div>
         <div class="item">Curso 3</div>
