@@ -1,0 +1,38 @@
+.item {
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.flexivel {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+
+}
+
+.quebrar {
+    flex-wrap: wrap-reverse;
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.horizontal {
+    flex-direction: row;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
