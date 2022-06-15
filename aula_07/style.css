@@ -1,0 +1,84 @@
+.item {
+    margin: 5px;
+    padding: 5px;
+    background: #447;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+
+.tam0 {
+    flex-grow: 0;
+}
+
+.tam1 {
+    flex-grow: 1;
+}
+
+.tam2 {
+    flex-grow: 2;
+}
+
+.tam3 {
+    flex-grow: 3;
+}
+
+.container {
+    max-width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    justify-content: space-between;
+    /*Eixo principal*/
+    align-items: center;
+    /*Eixo secundário*/
+
+
+
+    /*flex-end*/
+    /*flex-center*/
+}
+
+.flex {
+    display: flex;
+}
+
+/* /* .flex-flow {
+    flex-flow: column-reverse;
+}  */
+
+.horizontal {
+    flex-direction: row;
+}
+
+/* .vertical {
+    flex-direction: column;
+}   */
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+/* Propriedades do Flexbox */
+
+/* 
+flex-direction
+flex-wrap
+flex-flow
+display:flex 
+justify-content:flex-end;
+justify-content:flex-start;
+justify-content:space-between;
+justify-content:space-around;
+*/
+
+/* flex-flow: row nowrap; */
+/* justify-content: space-around;Os elementos são centralizados */
+/* justify-content: space-between; Elementos distribuídos igualmente no container. Distribuídos entre entre o flex-start,flex-center e o flex-end */
+/* justify-content: space-around; */
+/* align-items: stretch; */
