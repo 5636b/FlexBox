@@ -1,0 +1,45 @@
+.container {
+    background-color: #ccc;
+    height: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    /* align-items: flex-start; */
+    /* align-items: stretch; */
+    /* align-items: baseline ; */
+    /* align-content: flex-start; */
+}
+
+.item {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    
+    /* 
+    flex-basis: 250px;
+    flex-shrink: 1;
+    flex-grow:2;
+     */
+
+    flex: 1 2 250px;
+}
+
+.article-1 {
+    order: 2;
+    flex-grow: 1;
+}
+
+.article-2 {
+    order: 4;
+}
+
+.article-3 {
+    order: 1;
+}
+
+.article-4 {
+    order: 3;
+}
